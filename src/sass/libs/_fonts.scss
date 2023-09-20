@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Disket Mono';
+    font-display: swap;
+    src: local('Disket-Mono-Bold'),
+    url('../fonts/Disket-Mono-Bold.ttf') format('ttf'),
+    url('../fonts/Disket-Mono-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Disket Mono';
+    font-display: swap;
+    src: local('Disket-Mono-Regular'),
+        url('../fonts/Disket-Mono-Regular.ttf') format('ttf'),
+        url('../fonts/Disket-Mono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ambidexter';
+    font-display: swap;
+    src: local('ambidexter_regular'),
+        url('../fonts/ambidexter_regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

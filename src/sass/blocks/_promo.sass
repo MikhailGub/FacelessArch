@@ -1,0 +1,60 @@
+.promo
+    position: relative
+    display: flex
+    height: 220px
+    &__img
+        border: 1px solid black
+        border-top: none
+        width: 500px
+        img
+            z-index: 2
+            width: 300px
+            height: 150px
+            position: absolute
+            top: 45px
+            left: 80px
+            margin-bottom: 20px
+    &__lorem
+        z-index: 3
+        width: 300px
+        height: 150px
+        position: absolute
+        top: 20px
+        left: 50px
+        line-height: 18.5px
+        font-size: 12px
+        text-align: justify
+        background-color: #e2acacd2
+        border: 10px solid #d6bdbd
+    &__lorem_active
+        z-index: 1
+    &__text
+        position: absolute
+        width: 185px
+        left: 290px
+        top: 5px
+        font-size: 10px
+        line-height: 15px
+    &__box
+        position: relative
+        z-index: 2
+        border: 1px solid black
+        border-top: none
+        border-left: none
+        width: calc( 100% - 500px )
+        display: flex
+        justify-content: center
+        align-items: center       
+        background-color: #fff 
+        a
+            color: #fff
+            background-color: #000
+            border: solid black
+            border-width: 80px 310px
+    &__box_active
+        background: url('../img/boobs.jpg') center (center/cover) no-repeat
+        a
+            border-width: 0
+            background-color: #e2acac
+            border-width: 7px 155px
+            border-color: #e2acac
